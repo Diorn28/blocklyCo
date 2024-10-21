@@ -1,0 +1,36 @@
+.exercice-container {
+    padding: 20px;
+}
+
+.instruction {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.run-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.run-button:hover {
+    background-color: #45a049;
+}
+
+.console {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.console pre {
+    margin: 0;
+    font-family: monospace;
+    white-space: pre-wrap;
+}

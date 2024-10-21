@@ -1,0 +1,35 @@
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f8f9fa;
+    border-left: 1px solid #ddd;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.closed {
+    transform: translateX(100%);
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 15px;
+    right: 270px;
+    z-index: 1100;
+    transition: right 0.3s ease;
+}
+
+.main-content {
+    transition: margin-right 0.3s ease;
+}
+
+.content-shift {
+    margin-right: 250px; /* Décale le contenu lorsque la sidebar est ouverte */
+}

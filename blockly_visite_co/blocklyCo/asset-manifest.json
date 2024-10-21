@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/blocklyCo/static/css/main.f69b480c.css",
+    "main.js": "/blocklyCo/static/js/main.9028a41c.js",
+    "index.html": "/blocklyCo/index.html",
+    "main.f69b480c.css.map": "/blocklyCo/static/css/main.f69b480c.css.map",
+    "main.9028a41c.js.map": "/blocklyCo/static/js/main.9028a41c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69b480c.css",
+    "static/js/main.9028a41c.js"
+  ]
+}
